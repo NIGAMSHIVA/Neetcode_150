@@ -8,7 +8,7 @@ public class ContainsDuplicate {
 
     public static boolean containsDuplicate(int[] nums) {
         
-        //code 1-Using HashSet
+        //code 1-Using HashSet TC->O(n) SC-> O(n) 
         // HashSet<Integer> set = new HashSet<>();
 
         // for (int i = 0; i < nums.length; i++) {
@@ -20,7 +20,7 @@ public class ContainsDuplicate {
         // return false;
 
 
-        // Code 2 Using Sorting
+        // Code 2 Using Sorting TC->O(nlogn) SC-> O(1)
         // Arrays.sort(nums);
 
         // for (int i = 0; i < nums.length - 1; i++) {
@@ -29,7 +29,7 @@ public class ContainsDuplicate {
         // }
         // return false;
 
-        // code 3 using HashMap
+        // code 3 using HashMap TC->O(n) SC-> O(n)
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
