@@ -23,6 +23,8 @@ public class ValidAnagram {
 
         // return map1.equals(map2);
 
+        // Approach 2
+
         // char char1[] = s.toCharArray();
         // char char2[] = t.toCharArray();
 
