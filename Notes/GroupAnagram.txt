@@ -1,0 +1,5 @@
+1.addAll() is the method in the ArrayList that add all the List in the list or the list in the list of lIst
+2.HashMap values can be set to List Also like HashMap<String,List<String>> map 
+3.String sorted = new String(ch); Helpful method used to create string from the Array.
+4.in our code map.values() is the list and L1 in the list of list so we use L1.addAll(map.values());
+ 
